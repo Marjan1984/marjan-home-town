@@ -1,0 +1,111 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#title{
+    color:#ffffff;
+    padding : 10px;
+    background-color: #ff52d4;
+    margin: 90px 0px 10px 0px;
+}
+#description{
+    color:#ffffff;
+    background-color: #ff52d4;
+    padding: 7px;
+    margin: 0px 0 100px;
+
+}
+.main-page{
+    background-image: url("image/tehran.jpg");
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 10px 0 40px 0;
+}
+.second-part{
+    background-color:#ff52d4;
+    background-size: cover;
+    color: #ffffff;
+    padding: 10px  0 0 0;
+}
+.milad{
+    width: 170px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 30%;
+}
+.azadi{
+    width: 170px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 30%;
+}
+#tourism-pics{
+    align-items: center;
+    padding:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+#description{
+    padding: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    font-style: italic;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hint-text{
+    padding: auto;
+    margin-top:-25px;
+    display: flex;
+    font-style: italic;
+    font-weight: normal;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.guid{
+    background-color: rgb(245, 245, 245);
+    background-size: 0px;
+    padding: 40px 0 40px 0;
+    margin-top: 500;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+#img{
+    width: 120px ;
+    height: 150px;
+    border-radius: 10%;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.guid-border{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    background-color:#ff52d4;
+    text-align: center;
+    border-bottom: 7px solid #ffffff;
+}
+#me{
+    margin-top: -15px;
+    padding: 0 20px 0 10px;
+}
+.marj{
+    color: rgba(0, 0, 0, 0.849);
+}
